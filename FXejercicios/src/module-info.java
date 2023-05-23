@@ -15,6 +15,7 @@ module FXejercicios {
 	requires javafx.web;
 	requires javafx.fxml;
 	requires jdk.jsobject;
+	requires javafx.base;
 
 	opens com.dim.FX.Ejercicio100 to javafx.graphics, javafx.base;
 	opens com.dim.FX.Ejercicio104 to javafx.graphics, javafx.base;
@@ -74,5 +75,7 @@ module FXejercicios {
 	opens com.dim.FX.Ejercicio257 to javafx.graphics, javafx.base;
 	opens com.dim.FX.Ejercicio258 to javafx.graphics, javafx.base;
 	opens com.dim.FX.Ejercicio259 to javafx.graphics, javafx.base;
+	opens com.dim.FX.Menu to javafx.graphics, javafx.base;
+	
 	
 }
